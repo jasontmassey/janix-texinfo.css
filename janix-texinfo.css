@@ -1,7 +1,7 @@
 /*
 #+##############################################################################
 #
-# janix-texinfo.css v1.0
+# janix-texinfo.css v1.1
 # A CSS stylesheet for Texinfo HTML output produced by texi2html 5.0
 #
 #    Copyright (C) 2012  Jason Massey <jason@janixsoft.com>
@@ -60,7 +60,7 @@ div.smallexample, div.example
     border: 1px solid silver;
     background: rgb(244, 244, 244);
     margin: 1em 0em 1em 0em;
-    color: #004400;
+    color: #033DA3;
     border-radius: 4px;
 }
 
@@ -116,8 +116,8 @@ pre.format
 blockquote
 {
     border: 1px solid #900;
-    margin: .25em 3em .25em 3em;
-    background: #FFFFB2;
+    margin: 1em 3em .25em 3em;
+    background: rgba(248, 248, 2, 0.16);
     border-radius: 4px;
     padding: .25em .5em .25em .5em;
 }
@@ -125,7 +125,7 @@ blockquote
 
 h1, h2, h3, h4, h5
 {
-    color: #900;
+    color: black;
     font-family: Candara,Arial,sans-serif;
 }
 
@@ -137,8 +137,7 @@ h1
 
 h1.chapter, h1.appendix, h2.chapter, h2.appendix
 {
-    border-bottom: .2em solid black;
-    /*border-bottom: .3em solid #900;*/
+    border-bottom: .3em solid rgba(0, 0, 0, 0.1);
 }
 
 h1.chapter, h2.section
@@ -149,8 +148,14 @@ h1.chapter, h2.section
 
 h2.section, h3.section
 {
-    border-bottom: .2em solid black;
+    border-bottom: .3em solid rgba(0, 0, 0, 0.1);
     margin-top: .5em;
+}
+
+h3.subsection
+{
+    margin-top: 1em;
+
 }
 
 .subheading
@@ -160,11 +165,10 @@ h2.section, h3.section
 
 table.header, div.header p
 {
-    background: #E6E6E6;
+    background: rgba(0, 0, 0, 0.1);
     border: 1px solid black;
     padding: .5em;
     white-space: nowrap;
-/*    box-shadow: 5px 5px silver;*/
     border-radius: 4px;
 }
 
@@ -272,20 +276,13 @@ pre.menu-comment
 
 code
 {
-    padding-left: .25em;
-    padding-right: .25em;
-    font-family: sans-serif;
-    box-shadow: 1px 1px silver;
-    border-radius: 4px;
-    background-color: rgb(244, 244, 244);
-    color: #004400;
+    color: #900;
 }
 
 kbd
 {
     padding-left: .25em;
     padding-right: .25em;
-    font-family: sans-serif;
     border: solid 1px #C2C2C2;
     border-radius: 4px;
     background-color: #F0F0F0;
@@ -296,19 +293,13 @@ kbd
 
 samp
 {
-    padding-left: .25em;
-    padding-right: .25em;
-    font-family: sans-serif;
-    box-shadow: 1px 1px silver;
-    border-radius: 4px;
-    background-color: rgb(244, 244, 244);
-    color: #3333FF;
+    color: #046370;
 }
 
 var
 {
-    font-family: sans-serif;
-    color: green;
+
+    color: #927811;
 }
 
 span.nocodebreak {white-space:pre}
