@@ -2,8 +2,8 @@
 README for janix-texinfo.css
 ------------------------------------
 
-The purpose of this cascading style sheet (CSS) is decorate the Texinfo
-HTML output produced by texi2html v5.0.
+The purpose of this cascading style sheet (CSS) is to decorate the
+Texinfo HTML output produced by texi2html v5.0.
 
 The Texinfo 4.13 manual was built using the following command:
 
