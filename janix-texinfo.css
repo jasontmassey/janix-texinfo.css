@@ -32,6 +32,10 @@ padding: 0;
 vertical-align: baseline;
 }
 
+sup {
+    vertical-align: super;
+}
+
 hr
 {
 margin: 1em 0em 1em 0em;
@@ -238,6 +242,12 @@ table.menu
     white-space: nowrap;
     margin-top: 2em;
     line-height: 1.4em;
+}
+
+dl
+{
+    display: block;
+    margin-top: 1em;
 }
 
 dt
