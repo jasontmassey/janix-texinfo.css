@@ -25,6 +25,15 @@ and can be viewed by directing your browser to:
 
     http://docs.janixsoft.com/bison/index.html
 
+***
+
+The Emacs 24.3 manual was built using the following command:
+
+    texi2any --split=node --html --css-ref=janix-texinfo.css --set-customization-variable WORDS_IN_PAGE=0 emacs.texi
+
+and can be viewed by directing your browser to:
+
+    http://docs.janixsoft.com/emacs/index.html
 
 ------------------------------------
 END OF README
