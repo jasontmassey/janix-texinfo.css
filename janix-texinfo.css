@@ -177,8 +177,10 @@ p
     margin: 1em 0em 1em 0em;
 }
 
+/*
 table.header a:link, div.header p a:link
 {text-decoration:none;}
+*/
 
 table.header a:visited, div.header p a:visited
 {text-decoration:none;}
