@@ -108,17 +108,22 @@ border-radius: 4px;
 blockquote
 {
 border: 1px solid #900;
-margin: 1em 3em .25em 3em;
+margin: 1em 3em 1em 3em;
 background: rgba(248, 248, 2, 0.16);
 border-radius: 4px;
 padding: .25em .5em .25em .5em;
+}
+
+img
+{
+margin-top: 1em;
+margin-bottom: .5em;
 }
 
 
 h1, h2, h3, h4, h5
 {
  color: #990000;
- /* font-family: Arial,sans-serif; */
 }
 
 h1
@@ -127,7 +132,7 @@ margin-top: 1em;
 margin-bottom: .5em;
 }
 
-h1.chapter, h2.section
+h1.chapter, h2.section, .subheading
 {
 margin-bottom: .375em;
 }
