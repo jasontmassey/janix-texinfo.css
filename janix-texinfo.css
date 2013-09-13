@@ -219,7 +219,7 @@ div.contents li
     white-space: nowrap;
 }
 
-div.contents li ul
+div.contents li, ul
 {
     margin-top: .25ex;
 }
