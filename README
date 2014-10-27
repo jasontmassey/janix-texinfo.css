@@ -7,33 +7,9 @@ Texinfo HTML output produced by texi2any v5.0 (or greater).
 
 ***
 
-The Texinfo 5.0 manual was built using the following command:
+Use the following syntax to build HTML with this stylesheet:
 
-    texi2any --split=node --html --css-ref=janix-texinfo.css --set-customization-variable WORDS_IN_PAGE=0 texinfo.txi
-
-and can be viewed by directing your browser to:
-
-    http://docs.janixsoft.com/texinfo/index.html
-
-***
-
-The Bison 2.7 manual was built using the following command:
-
-    texi2any --split=node --html --css-ref=janix-texinfo.css --set-customization-variable WORDS_IN_PAGE=0 bison.texi
-
-and can be viewed by directing your browser to:
-
-    http://docs.janixsoft.com/bison/index.html
-
-***
-
-The Emacs 24.3 manual was built using the following command:
-
-    texi2any --split=node --html --css-ref=janix-texinfo.css --set-customization-variable WORDS_IN_PAGE=0 emacs.texi
-
-and can be viewed by directing your browser to:
-
-    http://docs.janixsoft.com/emacs/index.html
+    texi2any --split=node --html --css-ref=janix-texinfo.css --set-customization-variable WORDS_IN_PAGE=0 my-info-file.txi
 
 ------------------------------------
 END OF README
